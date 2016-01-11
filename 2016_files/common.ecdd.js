@@ -158,9 +158,8 @@ $(function() {
 
     // 微信分享
     var shareTitle = '当你打开这个，你与微信的故事就这样发生了';
-    var shareDesc  = '2016 微信公开课 PRO 版';
-    var shareLink  = 'https://support.weixin.qq.com/cgi-bin/mmsupport-bin/getmyrelationwithwx?action=getme';
-    var shareImg   = 'https://res.wx.qq.com/zh_CN/htmledition/getmyrelationwithwx/images/share.jpg';
+    var shareDesc  = '2015 我在顺顺 | 个人版';
+    var shareImg   = 'http://crptest1.shunshunliuxue.com:8088/2016/1.pic.jpg';
 
     document.addEventListener('WeixinJSBridgeReady', function() {
         WeixinJSBridge.on('menu:share:appmessage', function() {
